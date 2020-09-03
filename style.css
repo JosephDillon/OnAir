@@ -2,7 +2,16 @@
 	display:flex;
 	justify-content:center;
 	align-items: center;
+	height: 100%
 }
 h1{
 	color: red;
 }
+html{
+	height:100%;
+}
+body{
+	height:100%;
+	background: black;
+}
+
