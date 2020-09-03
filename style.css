@@ -7,6 +7,7 @@
 h1{
 	color: red;
 	font-family: Arial;
+	font-size: 10vw;
 }
 html{
 	height:100%;
@@ -14,5 +15,19 @@ html{
 body{
 	height:100%;
 	background: black;
+}
+.glow{
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow{
+	from{
+		text-shadow: none;
+	}
+	to{
+		text-shadow: 0 0 10px #ff3333;
+	}
 }
 
